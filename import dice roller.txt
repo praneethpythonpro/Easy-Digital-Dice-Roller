@@ -1,0 +1,7 @@
+import random
+
+while True:
+    input("Press Type Enter to roll the dice 🎲: ")
+    print("You rolled:", random.randint(1, 6))
+    if input("Roll again? (yes/no): ") != 'yes':
+        break
